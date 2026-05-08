@@ -1,0 +1,460 @@
+{
+  "project": {
+    "name": "Career Transformation Portfolio",
+    "subtitle": "SAP Technical Architect → SAP + AI Technical Architect",
+    "startDate": "2026-05-01",
+    "endDate": "2026-12-01",
+    "totalWeeks": 28,
+    "weeklyHours": 8,
+    "stretchHours": 15
+  },
+  "positioning": {
+    "target": "SAP Technical Architect with practical AI & GenAI expertise, capable of designing, integrating, and governing SAP AI + non‑SAP AI solutions end‑to‑end.",
+    "coreIdentity": [
+      "SAP Technical Architect (BTP, S/4, RAP, UI5, Integration)",
+      "AI Solution Architect (GenAI, RAG, Agents, orchestration)"
+    ]
+  },
+  "phases": [
+    {
+      "id": 1,
+      "name": "Foundation",
+      "duration": "May - June",
+      "weeks": 8,
+      "color": "#6366f1",
+      "objective": "AI fundamentals + SAP AI landscape",
+      "checkpoint": "You can explain AI to SAP stakeholders clearly and credibly"
+    },
+    {
+      "id": 2,
+      "name": "Integration Depth",
+      "duration": "July - August",
+      "weeks": 8,
+      "color": "#8b5cf6",
+      "objective": "SAP ↔ public AI architectures",
+      "checkpoint": "You now think like an AI integration architect"
+    },
+    {
+      "id": 3,
+      "name": "Credibility & Proof",
+      "duration": "September",
+      "weeks": 4,
+      "color": "#ec4899",
+      "objective": "Tangible proof & external-facing artefacts",
+      "checkpoint": "You look credible without explaining context"
+    },
+    {
+      "id": 4,
+      "name": "Market Readiness",
+      "duration": "October - November",
+      "weeks": 8,
+      "color": "#f59e0b",
+      "objective": "Certifications + visibility",
+      "checkpoint": "You are already perceived as the target role"
+    }
+  ],
+  "months": [
+    {
+      "id": "may",
+      "name": "May 2026",
+      "number": 1,
+      "phase": 1,
+      "phaseName": "Foundation",
+      "objective": "AI fundamentals for architects + SAP's AI direction",
+      "keyFocus": "Build solid AI vocabulary; avoid ML rabbit holes",
+      "hours": 32,
+      "deliverables": [
+        {
+          "title": "LLMs Explained for SAP Architects",
+          "type": "1-page summary",
+          "week": "1",
+          "description": "One-page explanation of LLMs for technical SAP stakeholders"
+        },
+        {
+          "title": "SAP AI Architecture Reference Sketch",
+          "type": "Diagram",
+          "week": "2",
+          "description": "S/4 → BTP → AI Core → LLM architecture flow"
+        },
+        {
+          "title": "Prompt Experiments",
+          "type": "Hands-on practice",
+          "week": "3",
+          "description": "3-5 simple experiments with OpenAI/Azure APIs"
+        },
+        {
+          "title": "Joule vs Custom GenAI Decision Table",
+          "type": "Decision Framework",
+          "week": "4",
+          "description": "When to use SAP Joule vs custom AI solutions"
+        }
+      ],
+      "checkpoint": "✅ Can explain AI to SAP stakeholders clearly and credibly"
+    },
+    {
+      "id": "june",
+      "name": "June 2026",
+      "number": 2,
+      "phase": 1,
+      "phaseName": "Foundation",
+      "objective": "Applied GenAI for Enterprise Architects",
+      "keyFocus": "Move from theory → applied patterns; focus on RAG & enterprise controls",
+      "hours": 32,
+      "deliverables": [
+        {
+          "title": "RAG Patterns Deep Dive",
+          "type": "Study notes",
+          "week": "1",
+          "description": "RAG architectures and vector database concepts (architect level)"
+        },
+        {
+          "title": "SAP Data Exposure Patterns",
+          "type": "Architecture notes",
+          "week": "2",
+          "description": "CDS, OData, CAP data architectures and privacy implications"
+        },
+        {
+          "title": "RAG PoC with Mock SAP Data",
+          "type": "GitHub Repo + README",
+          "week": "3",
+          "description": "Proof-of-concept RAG implementation using simulated SAP data"
+        },
+        {
+          "title": "Governance & Cost Framework",
+          "type": "Blog draft",
+          "week": "4",
+          "description": "Prompt logging, cost control, hallucination mitigation"
+        }
+      ],
+      "checkpoint": "✅ Understand applied patterns; can pitch architecture to stakeholders",
+      "stretch": "Start Azure AI Engineer Associate learning path (slow burn)"
+    },
+    {
+      "id": "july",
+      "name": "July 2026",
+      "number": 3,
+      "phase": 2,
+      "phaseName": "Integration Depth",
+      "objective": "SAP ↔ Public AI Integration Architectures",
+      "keyFocus": "Be the person for SAP + external AI discussions; event-driven & hybrid",
+      "hours": 32,
+      "deliverables": [
+        {
+          "title": "Event-Driven AI Pattern",
+          "type": "Architecture Diagram",
+          "week": "1",
+          "description": "Event → AI inference → SAP writeback pattern"
+        },
+        {
+          "title": "CAP + AI Service Layer Pattern",
+          "type": "Architecture Design",
+          "week": "2",
+          "description": "S/4 → CAP → AI → UI integration flow"
+        },
+        {
+          "title": "Agent Architecture for SAP",
+          "type": "Design Document",
+          "week": "3",
+          "description": "Tool-using agents with transactional safety for SAP"
+        },
+        {
+          "title": "Reference Architecture PDF",
+          "type": "20-page design document",
+          "week": "4",
+          "description": "Comprehensive SAP + AI reference architecture"
+        }
+      ],
+      "checkpoint": "✅ You now think like an AI integration architect"
+    },
+    {
+      "id": "august",
+      "name": "August 2026",
+      "number": 4,
+      "phase": 2,
+      "phaseName": "Integration Depth",
+      "objective": "Domain-Centric AI (Procurement/Sourcing Focus)",
+      "keyFocus": "Anchor AI to procurement; avoid generic 'AI architect' trap",
+      "hours": 32,
+      "deliverables": [
+        {
+          "title": "AI in Procurement Use-Cases",
+          "type": "Research + Use-case doc",
+          "week": "1",
+          "description": "Supplier qualification, risk scoring, spend analysis copilots"
+        },
+        {
+          "title": "AI-Assisted SQM Scenario",
+          "type": "Full Architecture",
+          "week": "2",
+          "description": "End-to-end design: Supplier Qualification with AI"
+        },
+        {
+          "title": "Mock Demo & Slides",
+          "type": "Presentation + Diagrams",
+          "week": "3",
+          "description": "Presentation-ready demo of AI-assisted procurement"
+        },
+        {
+          "title": "Domain Case Study",
+          "type": "Write-up",
+          "week": "4",
+          "description": "LinkedIn-ready case study: AI in procurement"
+        }
+      ],
+      "checkpoint": "✅ Anchor AI to procurement; become the domain expert",
+      "stretch": "Speak at internal guild / AI community event"
+    },
+    {
+      "id": "september",
+      "name": "September 2026",
+      "number": 5,
+      "phase": 3,
+      "phaseName": "Credibility & Proof",
+      "objective": "Tangible Proof & External-Facing Artefacts",
+      "keyFocus": "Produce visible artifacts; prepare for certifications",
+      "hours": 32,
+      "deliverables": [
+        {
+          "title": "Flagship GitHub Repository",
+          "type": "Full GitHub Repo",
+          "week": "1",
+          "description": "Clean, well-documented SAP + AI project with README"
+        },
+        {
+          "title": "Certification Prep Materials",
+          "type": "Study plan",
+          "week": "2",
+          "description": "SAP BTP Solution Architect exam preparation"
+        },
+        {
+          "title": "Technical LinkedIn Posts",
+          "type": "2 deep posts",
+          "week": "3",
+          "description": "LinkedIn posts showing architectural depth"
+        },
+        {
+          "title": "Elevator Pitch",
+          "type": "Verbal + written",
+          "week": "4",
+          "description": "PowerPoint + spoken: Explain AI architecture in 10 mins"
+        }
+      ],
+      "checkpoint": "✅ You look credible without needing to explain context"
+    },
+    {
+      "id": "october",
+      "name": "October 2026",
+      "number": 6,
+      "phase": 4,
+      "phaseName": "Market Readiness",
+      "objective": "Certifications & Market Signalling",
+      "keyFocus": "Formal validation; attend events",
+      "hours": 32,
+      "deliverables": [
+        {
+          "title": "SAP BTP Solution Architect Certification",
+          "type": "Exam Pass",
+          "week": "4",
+          "description": "Official SAP certification"
+        },
+        {
+          "title": "Azure AI Engineer Associate (Optional)",
+          "type": "Exam Pass",
+          "week": "4",
+          "description": "Azure certification for GenAI expertise"
+        }
+      ],
+      "checkpoint": "✅ Add formal validation to your positioning",
+      "stretch": "Attend TechEd, DSAG, or AI Summit event"
+    },
+    {
+      "id": "november",
+      "name": "November 2026",
+      "number": 7,
+      "phase": 4,
+      "phaseName": "Market Readiness",
+      "objective": "Positioning & Public Launch",
+      "keyFocus": "Rebrand publicly; align story across channels",
+      "hours": 32,
+      "deliverables": [
+        {
+          "title": "LinkedIn Rebranding",
+          "type": "Profile update",
+          "week": "1",
+          "description": "Headline, About, positioning formula: SAP Technical Architect | AI & GenAI Integration | Intelligent Enterprises"
+        },
+        {
+          "title": "Leadership/Use-Case Posts",
+          "type": "LinkedIn content",
+          "week": "2",
+          "description": "Architecture posts + real use-case narratives"
+        },
+        {
+          "title": "CV & Portfolio Refresh",
+          "type": "Professional documents",
+          "week": "3",
+          "description": "Updated CV highlighting AI architectural capability"
+        },
+        {
+          "title": "Soft Launch",
+          "type": "Conversations",
+          "week": "4",
+          "description": "Brief managers, leads, recruiters about new positioning"
+        }
+      ],
+      "checkpoint": "✅ By December 1: Already perceived as the target role"
+    }
+  ],
+  "deliverables": [
+    {
+      "month": "may",
+      "title": "LLMs Explained for SAP Architects",
+      "type": "1-page summary",
+      "status": "pending",
+      "link": null
+    },
+    {
+      "month": "may",
+      "title": "SAP AI Architecture Reference Sketch",
+      "type": "Diagram",
+      "status": "pending",
+      "link": null
+    },
+    {
+      "month": "june",
+      "title": "RAG PoC with Mock SAP Data",
+      "type": "GitHub Repo + README",
+      "status": "pending",
+      "link": null
+    },
+    {
+      "month": "june",
+      "title": "Governance & Cost Framework",
+      "type": "Blog draft",
+      "status": "pending",
+      "link": null
+    },
+    {
+      "month": "july",
+      "title": "Reference Architecture PDF",
+      "type": "Architecture Document",
+      "status": "pending",
+      "link": null
+    },
+    {
+      "month": "august",
+      "title": "AI-Assisted Procurement Case Study",
+      "type": "Write-up + Slides",
+      "status": "pending",
+      "link": null
+    },
+    {
+      "month": "september",
+      "title": "Flagship GitHub Repository",
+      "type": "Full Project Repo",
+      "status": "pending",
+      "link": null
+    },
+    {
+      "month": "september",
+      "title": "Technical LinkedIn Posts",
+      "type": "2 deep technical posts",
+      "status": "pending",
+      "link": null
+    },
+    {
+      "month": "october",
+      "title": "SAP BTP Solution Architect Cert",
+      "type": "Certification",
+      "status": "pending",
+      "link": null
+    },
+    {
+      "month": "october",
+      "title": "Azure AI Engineer Associate Cert",
+      "type": "Certification (optional)",
+      "status": "pending",
+      "link": null
+    },
+    {
+      "month": "november",
+      "title": "Rebranded LinkedIn Profile",
+      "type": "Personal Brand",
+      "status": "pending",
+      "link": null
+    },
+    {
+      "month": "november",
+      "title": "Updated CV & Portfolio",
+      "type": "Professional Documents",
+      "status": "pending",
+      "link": null
+    }
+  ],
+  "capabilities": {
+    "architecture": [
+      "SAP + AI reference architectures",
+      "Event-driven AI integration",
+      "RAG on SAP data patterns",
+      "Hybrid cloud deployments"
+    ],
+    "integration": [
+      "SAP Joule / GenAI Hub",
+      "OpenAI / Azure OpenAI",
+      "SAP Event Mesh",
+      "CAP + AI service layers"
+    ],
+    "build": [
+      "RAG PoCs with mock SAP data",
+      "AI-assisted procurement scenarios",
+      "Agents & tool orchestration",
+      "Reference implementations"
+    ],
+    "governance": [
+      "Data privacy & security",
+      "Cost & prompt logging",
+      "Hallucination mitigation",
+      "AI lifecycle management"
+    ]
+  },
+  "resources": {
+    "learning": [
+      {
+        "name": "DeepLearning.AI",
+        "url": "https://www.deeplearning.ai",
+        "description": "Short, practical AI courses"
+      },
+      {
+        "name": "OpenAI Documentation",
+        "url": "https://platform.openai.com/docs",
+        "description": "API reference and guides"
+      },
+      {
+        "name": "Azure AI Services",
+        "url": "https://learn.microsoft.com/en-us/azure/ai-services/",
+        "description": "Enterprise AI learning path"
+      },
+      {
+        "name": "SAP Help Portal",
+        "url": "https://help.sap.com",
+        "description": "Official SAP documentation"
+      }
+    ],
+    "papers": [
+      {
+        "title": "Attention Is All You Need",
+        "authors": "Vaswani et al.",
+        "year": 2017,
+        "url": null,
+        "description": "Foundation of Transformer architecture"
+      },
+      {
+        "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+        "authors": "Lewis et al.",
+        "year": 2020,
+        "url": null,
+        "description": "RAG pattern foundation"
+      }
+    ]
+  }
+}
